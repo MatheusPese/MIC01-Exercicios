@@ -19,7 +19,6 @@ class element:
         result = quantiphy.Quantity(result,'eV',scale=unit)
         return result.render(form='fixed', prec=6)
 
-
 Ge300K = element("Ge", 300, 0.66, 1.03e19, 5.35e18)
 GaAs300K = element("GeAs", T=300, Eg=1.42, Nc=4.21e17, Nv=9.52e18)        
 
